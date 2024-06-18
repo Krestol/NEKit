@@ -1,2 +1,2 @@
-github "Quick/Quick" "v2.2.0"
-github "Quick/Nimble" "v8.0.5"
+github "Krestol/Quick" "v7.6.2"
+github "Krestol/Nimble" "v13.3.1"
