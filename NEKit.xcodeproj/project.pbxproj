@@ -283,7 +283,6 @@
 		36E9CD041DD6F0DE003597CE /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360F392B1DD2068E002BED59 /* Resolver.framework */; };
 		36E9CD051DD6F0DE003597CE /* Resolver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 360F392B1DD2068E002BED59 /* Resolver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		927937E12C21F82200D0456C /* Clibsodium.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927937E02C21F82200D0456C /* Clibsodium.xcframework */; };
-		927937E22C21F82200D0456C /* Clibsodium.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 927937E02C21F82200D0456C /* Clibsodium.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -373,17 +372,6 @@
 				36A719B81D5EEB5900DC35F5 /* NEKit.framework in Embed Frameworks */,
 				36C4B81C1D6C51A400F2BDCD /* MMDB.framework in Embed Frameworks */,
 				36E9CD051DD6F0DE003597CE /* Resolver.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		927937DF2C21F7BA00D0456C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				927937E22C21F82200D0456C /* Clibsodium.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1191,7 +1179,6 @@
 				36C48D4B1CF88DED0071804F /* Resources */,
 				B596614759D8E2954DE5A031 /* Warn for TODO and FIXME comments */,
 				54BD0DA398CF0C5B9E0B9491 /* Set version number */,
-				927937DF2C21F7BA00D0456C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
